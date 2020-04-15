@@ -9,5 +9,5 @@ Muuntaa tunnisteesta saadun datan desimaalimuotoon ja vertaa sitä hyväksyttyih
 * Android 6.0+
 # Asennus
 Soveluksen voi ajaa Android Studio ohjelmiston android emulaattorilla tai omalla Android puhelimella. Android studiolla sovelluksen
-rakentaa APK muotoon. Mukana valmiiksi rakenettu APK, josta ei tosin löydy hyväksyttyjä tunnisteita.
+voi rakentaa APK muotoon. Mukana valmiiksi rakenettu APK, jossa ei ole tallennettu hyväskyttyjä tunnisteita.
 
