@@ -1,5 +1,5 @@
 # Fuksipassi
-Digitaalinen android sovellus Digitin fuksipassista
+Digitaalinen android-sovellus Digitin fuksipassista
 
 Hyödyntää puhelimen NFC-lukijaa lukeakseen periaatteessa minkä tahansa MifareClassic NFC tunnisteen.
 Muuntaa tunnisteesta saadun datan desimaalimuotoon ja vertaa sitä hyväksyttyihin tunnisteisiin.
