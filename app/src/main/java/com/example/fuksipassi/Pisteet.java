@@ -9,7 +9,7 @@ public class Pisteet extends  MainActivity{
             piste.setText(nimet.get(NfcLuku.getTunnus()).toString());
             //ok
         } else {
-            ((CheckBox) piste).toggle();
+            piste.toggle();
         }
     }
 }

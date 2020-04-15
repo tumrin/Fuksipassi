@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         piste.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste);
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         piste1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste1);
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         piste2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste2);
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         piste3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste3);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         piste4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste4);
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         piste5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste5);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         piste6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste6);
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         piste8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste8);
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         piste9.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (salli == false) {
+                if (vipu.isChecked() == false) {
                     Toast.makeText(getApplicationContext(), "Lisää-tila ei käytössä", Toast.LENGTH_SHORT).show();
                 }
                 Pisteet.annaPiste(piste9);
