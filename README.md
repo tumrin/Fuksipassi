@@ -1,7 +1,7 @@
 # Fuksipassi
 Digitaalinen android sovellus fuksipassista
 
-Hyödyntää puhelimen NFC-lukijaa lukeakseen periaatteessa minkä tahansa NFC tunnisteen.
+Hyödyntää puhelimen NFC-lukijaa lukeakseen periaatteessa minkä tahansa NFC tunnisteen(Tällä hetkellä MiFare Classic tyyppiset).
 Muuntaa tunnisteesta saadun datan desimaalimuotoon ja vertaa sitä hyväksyttyihin tunnisteisiin.
 # Vaatimukset
 * NFC tuen omaava Android puhelin  
